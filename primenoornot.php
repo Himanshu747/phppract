@@ -10,7 +10,6 @@ function checkPrimeNo($number){
     $limit = (int)($number ** 0.5)+1;
 
     for($i=2;$i<=$limit;$i++){
-   
         if($number % $i == 0){
           return true;
         }
